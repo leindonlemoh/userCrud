@@ -70,7 +70,7 @@ const Login = ({ onLogin }) => {
                     className={`form-control `}
                     name="password"
                     id="password"
-                    type="text"
+                    type="password"
                     onChange={onInputChange}
                     value={user.password}
                   />

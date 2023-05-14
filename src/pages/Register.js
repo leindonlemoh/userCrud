@@ -154,7 +154,7 @@ const Register = () => {
                       }`}
                       name="password_confirmation"
                       id="password_confirmation"
-                      type="text"
+                      type="password"
                       onChange={onInputChange}
                       value={user.password_confirmation}
                     />
@@ -165,7 +165,7 @@ const Register = () => {
                   <div className="input-group mb-3"></div>
                   <div className="input-group mb-3">
                     <input
-                      type="submit"
+                      type="password"
                       value="submit"
                       className="btn btn-primary w-100"
                     />
