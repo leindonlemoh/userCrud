@@ -129,7 +129,7 @@ const Register = () => {
                       }`}
                       name="password"
                       id="password"
-                      type="text"
+                      type="password"
                       onChange={onInputChange}
                       value={user.password}
                     />
@@ -165,7 +165,7 @@ const Register = () => {
                   <div className="input-group mb-3"></div>
                   <div className="input-group mb-3">
                     <input
-                      type="password"
+                      type="submit"
                       value="submit"
                       className="btn btn-primary w-100"
                     />
